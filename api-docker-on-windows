@@ -1,0 +1,54 @@
+Steps to use Akamai Dev kickstarter docker image on Windows 
+1/ install docker toolbox, see https://docs.docker.com/v17.12/toolbox/toolbox_install_windows/
+2/ start the toolbox Docker quickstart terminal, at the bash, type: 
+    $ docker run -it akamaiopen/api-kickstart
+3/ after install, it will have files below,
+
+$ docker run -it akamaiopen/api-kickstart
+===============================================================
+=  Welcome to the Akamai Docker Container for API Interaction =
+===============================================================
+=  To get started with this container, you'll need to set up  =
+=  credentials for the Akamai API system in Luna              =
+===============================================================
+=  Run the credentials generation script:                     =
+=  DevZone Hands-On Labs >> gen_edgerc                        =
+=                                                             =
+=  This will create the correct credentials file for you in   =
+=  the root directory so you can play with the API commands.  =
+===============================================================
+DevZone Hands-On Labs  >> ls -lrt
+total 172
+-rwxr-xr-x 1 root root 2647 Oct 10  2017 verify_creds.py
+-rw-r--r-- 1 root root  234 Oct 10  2017 variables.json
+-rwxr-xr-x 1 root root 3347 Oct 10  2017 user_admin.py
+-rwxr-xr-x 1 root root 2342 Oct 10  2017 script_template.py
+-rw-r--r-- 1 root root  180 Oct 10  2017 rules.json
+-rw-r--r-- 1 root root  212 Oct 10  2017 requirements.txt
+-rwxr-xr-x 1 root root 9748 Oct 10  2017 papi_prefetch_toggle.py
+-rwxr-xr-x 1 root root 5913 Oct 10  2017 papi_get_meta.py
+-rw-r--r-- 1 root root 8879 Oct 10  2017 papi_create_datastore_new.py
+-rw-r--r-- 1 root root 8976 Oct 10  2017 papi_create_datastore.py
+-rwxr-xr-x 1 root root 2487 Oct 10  2017 network_lists.py
+-rw-r--r-- 1 root root 1716 Oct 10  2017 netstorage.py
+-rwxr-xr-x 1 root root 3557 Oct 10  2017 media_analytics_audience.py
+-rw-r--r-- 1 root root 6849 Oct 10  2017 http_calls.py
+-rwxr-xr-x 1 root root 3034 Oct 10  2017 gtm-property.py
+-rwxr-xr-x 1 root root 1797 Oct 10  2017 get-media-reports.py
+-rwxr-xr-x 1 root root 5274 Oct 10  2017 gen_edgerc.py
+-rwxr-xr-x 1 root root 3526 Oct 10  2017 events.py
+-rwxr-xr-x 1 root root 2869 Oct 10  2017 diagnostic_tools.py
+-rwxr-xr-x 1 root root 3769 Oct 10  2017 config.py
+-rwxr-xr-x 1 root root 2979 Oct 10  2017 cloudlet_edge_redirector.py
+-rwxr-xr-x 1 root root 2508 Oct 10  2017 ccu_v3.py
+-rwxr-xr-x 1 root root 2918 Oct 10  2017 ccu.py
+-rwxr-xr-x 1 root root 5109 Oct 10  2017 case_management_create.py
+-rwxr-xr-x 1 root root 3727 Oct 10  2017 billing_usage_v2.py
+-rwxr-xr-x 1 root root 6933 Oct 10  2017 billing_usage.py
+-rw-r--r-- 1 root root 2729 Oct 10  2017 README.md
+drwxr-xr-x 2 root root 4096 Oct 10  2017 contrib
+drwxr-xr-x 2 root root 4096 Oct 10  2017 tools
+drwxr-xr-x 2 root root 4096 Oct 10  2017 dist
+drwxr-xr-x 3 root root 4096 Oct 10  2017 build
+drwxr-xr-x 2 root root 4096 Oct 10  2017 akamaikickstart.egg-info
+DevZone Hands-On Labs  >>
